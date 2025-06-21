@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exc3.HTML</title>
+    <style>
+        #seccion1 {
+            background-color: rgb(0, 26, 255);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            margin-right: 500px;
+        }
+
+        #seccion2 {
+            background-color: rgb(54, 48, 48);
+            color: rgb(255, 0, 0);
+            padding: 10px;
+            margin-right: 500px;
+        }
+
+        .navegacion {
+            display: flex;
+            align-items: center;
+            background-color: rgb(38, 48, 190);
+            padding: 10px 20px;
+        }
+
+        .navegacion img {
+            height: 130px;
+            margin-right: 200px;
+        }
+
+        .navegacion ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navegacion li {
+            margin: 0 110px;
+            text-decoration: underline;
+        }
+
+        .navegacion a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navegacion a :hover {
+            text-decoration: underline;
+        }
+
+
+        aside {
+            float: right;
+            background-color: rgb(255, 255, 255);
+            flex: 1;
+            margin-top: -517px;
+            padding: 20px 0px;
+            height: 477px;
+        }
+
+        aside img {
+            width: 400px;
+            height: 330px;
+        }
+
+        aside .navegacion2 {
+            background-color: rgb(255, 102, 0);
+            display: flex;
+            align-items: center;
+        }
+
+        aside ul {
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+        }
+
+        aside li {
+            margin: 0 90px;
+        }
+
+        footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: #ff0000d8;
+        color: rgb(180, 21, 21);
+        padding: 20px;
+        margin-top: 20px;
+        }
+
+        .footer-columna {
+        width: 23%;
+        }
+
+        .footer-columna h4 {
+        margin-bottom: 10px;
+        }
+
+        .footer-columna a {
+        color: #ddd;
+        text-decoration: underline;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+    <header>
+        <div>
+            <nav class="navegacion">
+                <img src="https://musicart.xboxlive.com/7/412b6700-0000-0000-0000-000000000002/504/image.jpg">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contactos">Contactos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <br><br>
+        <section id="seccion1">
+            Seccion1
+            <h2>Inicio Seccion 1</h2>
+            <article>
+                <h3>Este es un Ingreso a la Sección 1</h3>
+                <p>en esta campo se escribe un texto que corresponda a la sección 1</p>
+            </article>
+            <article>
+                <h3>Este es otro Ingreso a la Sección 1</h3>
+                <p>en este campo se escribe otro texto que correspona a la sección 1</p>
+            </article>
+        </section>
+        <br><br>
+        <section id="seccion2">
+            Seccion 2
+            <article>
+                <h2>Este es un Ingreso a la Sección 2</h2>
+                <p>en esta campo se escribe un texto que corresponda a la sección 2</p>
+            </article>
+            <article>
+                <h2>Este es otro Ingreso a la Sección 2</h2>
+                <p>en esta campo se escribe otro texto que corresponda a la sección 2</p>
+            </article>
+        </section>
+    </main>
+    <aside>
+        <nav class="navegacion2">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#fin">Final</a></li>
+            </ul>
+        </nav>
+        <section>
+            <figure>
+                <img src="https://laantigona.com/wp-content/uploads/2021/12/creyentes-virgen-aparecio-juan-diego_0_0_788_490-2-1-2-1-1-1-1-1-1.png" alt="toyota Supra">
+                <figcaption>virgen de guadalupe</figcaption>
+            </figure>
+        </section>
+    </aside>
+    <footer>
+    <div class="footer-columna">
+      <h4>Contacto</h4>
+      <p>Email: info@ejemplo.com</p>
+    </div>
+    <div class="footer-columna">
+      <h4>Enlaces útiles</h4>
+      <p><a href="#">Términos y condiciones</a></p>
+    </div>
+    <div class="footer-columna">
+      <h4>Redes Sociales</h4>
+      <p><a href="#">Facebook__Instagram__Whatsapp</a></p>
+    </div>
+    <div class="footer-columna">
+      <h4>Soporte</h4>
+      <p><a href="#">Ayuda</a></p>
+    </div>
+  </footer>
+</body>
+</html>
